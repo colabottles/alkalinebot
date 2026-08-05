@@ -1,0 +1,26 @@
+{
+  "name": "alkaline-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.13.0",
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.8.0",
+    "@types/node": "^20.14.0",
+    "netlify-cli": "^17.0.0",
+    "typescript": "^5.5.0"
+  },
+  "allowScripts": {
+    "esbuild@0.25.4": true,
+    "esbuild@0.19.11": true,
+    "esbuild@0.21.2": true,
+    "netlify-cli@17.38.1": true,
+    "sharp@0.32.6": true
+  }
+}
