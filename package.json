@@ -13,7 +13,7 @@
   "devDependencies": {
     "@netlify/functions": "^2.8.0",
     "@types/node": "^20.14.0",
-    "netlify-cli": "^17.0.0",
+    "netlify-cli": "^27.10.2",
     "typescript": "^5.5.0"
   },
   "allowScripts": {
